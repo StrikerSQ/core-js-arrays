@@ -20,13 +20,15 @@
  *    getIntervalArray(0, 100) => [ 0, 1, 2, ..., 100 ]
  *    getIntervalArray(3, 3) => [ 3 ]
  */
-function getIntervalArray(start, end) {
-  const arr = [];
-  for (let i = start; start <= end; i += 1) {
-    arr.push(i);
-  }
-  return arr;
+function getIntervalArray(/* start, end */) {
+  throw new Error('Not implemented');
 }
+//   const arr = [];
+//   for (let i = start; start <= end; i += 1) {
+//     arr.push(i);
+//   }
+//   return arr;
+// }
 
 /**
  * Returns a new array where each element is the sum of the corresponding elements
@@ -41,7 +43,9 @@ function getIntervalArray(start, end) {
  *    sumArrays([10, 20, 30], [5, 10, 15]) => [15, 30, 45]
  *    sumArrays([-1, 0, 1], [1, 2, 3, 4]) => [0, 2, 4, 4]
  */
-function sumArrays(/* arr1, arr2 */) {}
+function sumArrays(/* arr1, arr2 */) {
+  throw new Error('Not implemented');
+}
 //   const arr3 = [];
 //   if (arr1.length >= arr2.length) {
 //     for (let i = 0; i < arr1.length; i += 1) {
